@@ -8,6 +8,27 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form>
+		<div>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" pattern=".{3,50}" required>
+		</div>
+		
+		<div>
+		<label for="portfolio">Portfolio</label>
+		<input type="url" name="portfolio" id="portfolio" required>
+		</div>
+
+		<div>
+		<label for="favColor">FavColor</label>
+		<input type="color" id="favColor" name="favColor" required>
+		</div>
+
+		<div>
+		<label for="likeness">Likeness</label>
+		<input type="range" id="likeness" name="likeness" pattern=".{1,100}" required>
+		</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
